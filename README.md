@@ -38,3 +38,5 @@ cd frontend
 npm install
 npm start
 ```
+
+4. Open the react app in multiple tabs for testing
