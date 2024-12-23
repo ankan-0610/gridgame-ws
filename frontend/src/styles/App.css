@@ -1,0 +1,95 @@
+/* Base layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header styles */
+h1 {
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Player count section */
+.player-count {
+  background-color: #f3f4f6;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+/* Grid container */
+.grid-container {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+/* History section */
+.history {
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.history-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.875rem;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.reset-button {
+  background-color: rgb(255, 72, 0);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.player-count{
+  background-color: #2080b4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .container {
+    padding: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 1.25rem;
+  }
+  
+  .grid-container {
+    padding: 0.5rem;
+  }
+}
+
+/* Animation for updates */
+@keyframes highlight {
+  0% {
+    background-color: #93c5fd;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.cell-update {
+  animation: highlight 1s ease-out;
+}
