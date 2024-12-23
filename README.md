@@ -1,5 +1,8 @@
 ## Multiplayer Grid Game
 
+![Alt text](https://github.com/ankan-0610/gridgame-ws/blob/master/Screenshot1.png?raw=true "real-time grid")
+![Alt text](https://github.com/ankan-0610/gridgame-ws/blob/master/Screenshot2.png?raw=true "timer and history")
+
 ### Tech Stack:
 
 #### Frontend
