@@ -46,3 +46,7 @@ npm start
 ```
 
 4. Open the react app in multiple tabs for testing
+
+## Acknowledgement 
+
+I'd like to thank the Gamitar team for this opportunity to practice my skills in Typescript and Websocket connections.
